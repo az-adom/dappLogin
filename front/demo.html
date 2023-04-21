@@ -1,0 +1,291 @@
+<html>
+  <head>
+    <title>NFT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="NFT" />
+    <meta name="description" content="NFT DEMO" />
+    <style type="text/css">
+      button {
+        margin-top: 15px;
+        display: inline-block;
+        position: relative;
+        color: #fff;
+        font-weight: 500;
+        font-size: 44px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        text-align: center;
+        border: none;
+        clip-path: polygon(7% 0, 93% 0, 100% 50%, 93% 100%, 7% 100%, 0 50%);
+        background-color: #000000;
+        background-image: radial-gradient(
+          200% 70% at center 20%,
+          rgba(48, 44, 45, 1) -30%,
+          rgba(50, 46, 47, 1) 49%,
+          rgba(22, 18, 19, 1) 50%,
+          rgba(22, 18, 19, 1) 150%
+        );
+        background-repeat: no-repeat;
+        transition: background-position-y ease-in-out 250ms;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="text-align: left; margin-top: 0%; height: 720px">
+      <div style="padding: 20px">
+        <img
+          style="width: 100%; border-radius: 30px"
+          src="https://dmtest.bingmingff.top/image/carousel.png"
+        />
+      </div>
+
+      <div style="padding: 25px; font-size: 35px; font-weight: bold">
+        <div>
+          <img
+            style="width: 53px"
+            src="data:image/png;base64,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"
+          />
+          <span style="position: relative; top: -10px; font-size: 44px"
+            >小程序</span
+          >
+        </div>
+        <!--        <button type="button" onclick="btnAction2()">进入CHAT-GPT</button>-->
+        <div>
+          <div
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <div
+              style="
+                padding: 40px;
+                width: 500px;
+                border-radius: 15px;
+                box-shadow: 0px 11px 0px 0px #000;
+                /* display: flex; */
+                justify-content: center;
+                text-align: center;
+                border: 4px ridge rgb(0 0 0);
+                border-style: solid;
+              "
+              onclick="btnActionOpen()"
+            >
+              <img src="https://dmtest.bingmingff.top/image/7days.png" />
+
+              <div style="padding: 20px">
+                <span
+                  style="
+                    font-size: 20px;
+                    margin: 10px;
+                    padding: 10px 20px 10px 20px;
+                    background-color: black;
+                    border-radius: 20px;
+                    color: white;
+                  "
+                  >点击进入ChatGPT小程序</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <script></script>
+        <div style="margin-top: 35px">
+          <img
+            style="width: 53px"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABBJJREFUaEPtmNuLG3UUx7/nN8nOjM1mxsteM8G3irBC0eqDl0dBhELVJwVfrSLYhUJB/4D2RbxRUPsq4ouwiwp98VEo6KrICqL4Ipm91l1mkl1mJs38jiTbya2ZJOtOLst23iY5c37fzznndzuEY/7QMdePewCjzuBAMjCRmXtUEcpVFni+Ckig72UYXg5K638mDZw4gDo5/4gQyk0Q7m8Ry9gNw8qz5b2NP5KESBxAN/PfADjXUSTzsufaL401gGZa+wS6r5NIBu/7jp0Zd4A9Ap2KASj5jp0dawDVsL4WRK90EinBS4FjvzzeAJO500LQTRA90DqJeUdKfjoorf011gBVcWoVQhHNSyZLyaeDov13kuIPlugBPbqZ5ybX7DkFMYihThSAqmatC4LodQYvEJGWZESZUSbIVRC+8py1awCCfvz3lQHNnHsYUL4j0EI/To9qw+BVIDznOxv/9PLVD4CqmdbKsMRHgqsQvmM/BcDvBtETQDdzlwDxfq9IDOJ/KfliULQ/ORqAkV8B4YnIiWReCqR8A6X1f2tLZja3KIT4sDEIL3tO5/OOblpLAJ2v+5K8GBTtj2vvmZlpVUl/JogaZyXGiucWnjwSgGbkAyJMRE68SnkGe1vb0XvamHs8Ramf64Mw73quPQVAtg0sdMO61bTBcYUrZ2+7G7/U7TKzU3oqXffNYM937I7nquibPkqoZT2H5xTav1E0I79LhPoZpwJ55raz9lszQNrMnUlB/FqvcYbru4UHAYTNdofdP5IAgGZYN4johY6lcedHNWtdFII+agDwDd+1X2wvjxEB5N4lElcOM5GZ5Xu+u3Z1LAD0yflnoCg/HAogDJ/zS+t3fTOSDFQXI820duLuAe1gDK7eCx4CUB6LDFRF6FnrNRBdA8HsmgnmnZCxWC7aX3ayG1UGDlM9XW1PLsDE5Px5RYjrAMlQhm+WS+vLtdJoPdd32gcSi36H8er3iDh99X1AN/KbIMzU1DDf8lx7epwA2vRte65d09oAiIl0rwzERSYuLb3s4+ZA3O9HBojLXBxAL/sRAFjbIKoe3gDGlucWZrtNCt3obj90gIOSUD4FWIRSXogmf/cSirf//wAxkek1BxJdgu5e9eqrUFvmNj23MNcyieMiOS4AcfoSOU4nmYWTuxPHRVEzLK+5B+SF4VR0H04y8jVfp6Zn9LS62bj0IPDdQtf+U+8SMvI/gXA2clq71FfKb2F/eytRgMzslKqkPk/8Uq9mrXeEoIPOwfCfS55T+KDbsD0zAEDTTOtHAj02TP0MrPpOraXStcXYDwAOWoupbwkYCkTSrcUo8Jpu5t8G41UGFpp7RUlkhsE+Mf0umb8Iivb1XpGPxuwrA0kIHJSPewCDimy/fo99Bv4D0NJ5T4hs2e8AAAAASUVORK5CYII="
+          />
+          <span style="position: relative; top: -10px; font-size: 44px"
+            >机器人</span
+          >
+        </div>
+
+        <div style="display: flex">
+          <div
+            style="text-align: center; padding: 10px 20px"
+            onclick="btnGroup1()"
+          >
+            <img
+              style="
+                width: 150px;
+                border-image: linear-gradient(to right, #b9128f, #00ff00);
+                border-radius: 50%;
+                border: 8px solid #46e3fc66;
+                background: linear-gradient(#fc466b66, #3f5efb7a);
+              "
+              src="https://zolo-image1.oss-ap-southeast-1.aliyuncs.com/userPortrait/1680316285416458654.jpg"
+            />
+            <div style="font-size: 32px; color: #8d8d8d; font-weight: normal">
+              Chatgpt 3.5
+            </div>
+          </div>
+          <div
+            style="text-align: center; padding: 10px 20px"
+            onclick="btnGroup2()"
+          >
+            <img
+              style="
+                width: 150px;
+                border-image: linear-gradient(to right, #b9128f, #00ff00);
+                border-radius: 50%;
+                border: 8px solid #46e3fc66;
+                background: linear-gradient(#fc466b66, #3f5efb7a);
+              "
+              src="https://zolo-image1.oss-ap-southeast-1.aliyuncs.com/userPortrait/1680316285416458654.jpg"
+            />
+            <div style="font-size: 32px; color: #8d8d8d; font-weight: normal">
+              Chatgpt 4.0
+            </div>
+          </div>
+        </div>
+
+        <script></script>
+        <script></script>
+        <br style="margin-top: 5px" />
+
+        <div style="margin-top: 35px">
+          <img
+            style="width: 53px"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAADWVJREFUeF7tXX2MXFUV/503s5036e7O07Bmu/umWSoCJRDQ8BkhYqyhRlFQSEAgtIpCo5Gq1GKEUGxJS8BQIwZMIcVQ0ipoa8BARAKJGCDFEAKmkGpaMm/bapv0vd2S92Zn5h1zZ3ZlP+a9e9/XzhLm/bN/zLnnnHt+99yPc869S+h+HbUAdVR6Vzi6AHR4EHQB6ALQYQt0WHzXA7oAdNgCHRbf9YAuAB22QIfFdz2gC0CHLdBh8V0P6ALQYQt0WHzXAz6iAOR7SkvOyUG7jEg7l5lPJ6JBAMakPWxmPsLA2xrwOnz/ZXf80N/j2qrQN3SaltPuZ6YVRNABNPkT4R0wXk3KP65eot28ekChVP4kwLdohGsAMqMpzhYzdnj1ia14/7//UW27qG/odC2n7SVQb2gbxhEGP0YTeNB1rVFV/knp5geAvqGTdE3bDGAVEeWTKM0Mj4gfcWsTm1SAKBrmboCuUJUp+APY7tWrd6vwV+UbRJc5ALoxfCNB2zptekmqc6s98zFmrPXGrCfCGOqGOS4d/e0YMB9l4nWePfrbdBRuzyVLAHS9ZP6KiG7KsgPMeNhzKj8EmiN3zqeXyu7kvB9LDWbe5jnWD4L4x2I6rVFWAAjj7yailUkVVGnPzM96jvX1dkYqGubTAH1FhU8QTRj/JHyzWoTn1fhTBggykvIiLLFkViCk7gF6qfwQEW5JOjLitJ+cLr47u60AIZfLbWbwiljrwSTDIP5xdJ1qkyoAer95HWm0Q1UhBg4y81MEfo4m8K7rjh4BUMfigcFCTj+bNFwM4HoCRhR5MsNfLV04s+avqGy6U9DigcFivvAWiE6SyReGB/wNnj0qdjB1Gf0io/w1DdiqCMRxt9E4FeOHjsn4Tv0emX+tujytLWpqHqA69TB4h2dX1wBHT6gaqEU3ohdLje1oHuLCP2Z+xHOs78joZv6eNf/22qQDwOKBQT2vH5Bt9xi8wbOtu6MZZia1bph3EWhDGA9m1Jj5jOqY9a+osrLmP1ufVADQS+ZmIro9tLOMXa5TuTaqQdrR64b5OIGuD+PlM99fdax1ceRlzX+6TukAYJQrBATGdsSc79m55eJPHIPMbTPQqxv6W+FrAldc21qmssbE44/Drl1ZGo//BxITA6D3DV1MudzfwgzbAK6YsCt/Ssf4LS66sfRGAj8WwpPrXD+v5hz+Rxy5ulFeRcD2rPhP8U0MQLFkrgfRlhBFD7p25eQ4RpC0yetGeX+YFzD7d3jO6D0xZWfNv6lWYgAKJfNJjeiqoE4y/E2ePXpnTCOENiuUyvdphNuCiXi3azdDFLG+Qql8v0b4cVb8UwFAL5n7iOj0ICV9n79UHbOei2UBSSO9NLSCKPd8IPiMfZ5TOSOu7Kz5pwJA0SgfDws1uzVvCd4/Kk64qX/F4rCJglYJYXzctSsfjytYxp/B455t9cflnxYAHKaAa4sNUmZfvmiUayHc2bUrWgLpWfNPvgYUjbIMgJ6kW7UwA0rkfyQACJ+CqmwiqxyriD/16Ic/0lOQbBFm9ld4zugLCaaBwKaF/vJlmobABZ4TLsKFfnOlptGzWS3yaa0BuwEEJr2ThARkoOnG8EaCdkcgHfNTrmNdLeMT9LteMrcQ0fqQbege17aujMs/FQD0UvlnRNgUOEqaYYjKp7JYB3SjfCA0HMF8u+tY98Y0kPwglkJwMfEOpae05Nw85feGdZLhr5ImSSJaScTwc8CesB0QfL7IHbNei8i6SV7sH7oGWm5nKP9G45IkBWOpeAAAhZEivMA7K3oOILD7etEo7xNJghADHXDtigjGxfkE//0ICTACCyQYJ3qnEkMHeIdrWzfEscbsNsXS8E6QFpqYYeYtnmP9NI68Ysl8EiHhFcHTZ76v6lg/icN/epvEU1CT2UJLyACuV6ueHCdtWDTKDwBYGz6lwgXqyz378HsLAwDhBSpJGaEt+7tcZ3R19EKngd6iUXgIkkTMpEEecO3KjyIZxzCMIvduk438ZhdaxWBrIvEPIE7HAwRz0QH0vqVYdHuwAaxVzBHkdWP4OoIm0pAq1RGHXds7Ncp6U+hfslLT8tskc37LhMxH3frEWXG8qx0G6QEAoNA//GVN056JMDIOMvwd7GsvVxvem5NBu3yxODzIi3Aag1YS0VWK1RAt//L9y6tjo39W1UE3zEvBeF6xaFit7EVVeBr5gNmy1BbkCBpGIGVgk2dXIuUeiiXzFRBdqCImXrVFOOdUPWBKVLFU3qlSPqLSaXWaeLssvWTWVEe/z/6aqjP6G3Wd5JSZANA6G5jbZZULcvXUKBh4zLMrog5IWuQ1m2OxVD4KgrSY7IN2vNutTaxZkGtAU0nDMHT03kogsZWbunKkZsn4VDaDt3p2M+wQqfJCN8rbCVgVUfQBNBo3JD0FC5mpeoBeMr9NoE0giPte8/+1rhnd4TnWo8rCxRmmR38lwkLf2gwBLnFjtesc+p2yrDaEqQCgG4MjhJ7HgWYxbcc/Br8E1Fd79pGDSso0vbbvgRiewMy403MqcSsvknuACFqxpm1LUvatZKSIRM27ZPBvcJ3Rp1SbtuL/2AzQOaptWueyZsnlzyO0+T9pEg/IF0vmRshKEuVahaY0k06TcbamEaulJ2ckrHPtyi/k3Z1JERcAvWiYO6PcPpwmVowYC8BL7NNrpPHbQP09z24c++D0OtBb6C8MkoZh9ulM0ljs0z9HrautMXRmkTgRdakRFuhmtfRGBq9V2aa2CoL9K6McAuMuwnGvIB33mR/10dgVt1ywp9+8IE8QRWA3gmggymhj5uc8p5m9igCCiHGJ2iNtu0qIRSzMfr123sSJI/9U1S3yaIp+6Y0rzLjbc/JPpFecO6IXjPrNGprpwiWqnQWaniBSlJHOC61NRl7cN5auDa08tHe+aiwqEgC6Ud5IQHAOduY8UwP593p2zz3pGX62qUd03aivB2g9AUUlIJi3uLHyBAO9eknfTYQVMjkMf7tnj35LRhdpCtL7zetJI7HVlH5iFDTIv7Zmj74pJU6BoMcYPjvH2k4iLFdi5zeudccO7VKinUEkAG88S8ClkrbM7H9RpRpEyQOEC4J79sluwLSUEgWx+W9mN+qDuj6iF43G7wFcLjMsg08w0zlVp/JvGe2c38WZgfv2EuGUsLbM2D9Zlxo63SkCYL5IIBnqIk0X+1ZKZEMENCiUzPs0opCK6cmGzK+6jnVJ1PVAtC70m6doGolChPBQi0JVhhSAQmn4Zo20h2UGWgjGn9JRFQRmvilS2GKaEYr95WugIaxqQlAfdzG+DLZtB9kvHIBmmq5vn0Js52nXrnxVBtJ8/l40yn8EICuasl2MnxxmoDCdVe6SyS4mhgKgklxh5nc8J//p+Z/zZXCO6Hqp/kbY3YXmipWkuKpVmyrKYwKnIgYOeHbl1KCpLhiAZo6374CEuduAf9F87XZkJp/9++TuSCyYokI76JNOExIv2ECgu0JouMF89YRj/aEdTSAABcO8VQOJd34Cv0SjJ6o1Y9Irnl1uixPHaaqkMFABfsa1rba7s0AAZFXPrcqw3LKFN/XMRkpsT+v7w0IJk1tGMU3E+mRTtYgTeTT+iXZrTVsAevqHL8xr2ivh2vBa17Z+GUvjeW7UTBQRPRLmzHWun19zDr8eR7XFiwcGG/lCJSxoF1Qf2xYAaZEV8zHXyZcX/uifMmfzkHYIwMeCDJx0Gy2LkTH7uzxndM5LAUEAhN98XAAHrqgjVXaltbWbs9RCGW2ESy92M464TmVO4HAOALKbgU3ZPl8Yt+w7quHSolcoo2e3Vl0Su9qhb+ikYi53NGyaY9SWzU6TzgWgZH4DRCFpPLZc2yqnZZj55KNL3rQA81VuwHZRRU/dKIv3K84Mom33ZMMcAGTzf+u9n3TKzFU6lSaN7OQaJ305XT9ZiUu7pxPmACB7esD38f3qWOXXaRpmvngV+svf0zQ8GCwv4dMGxtK1GliUt7f9WDwIa1dm5AnmTkGG+UZY5ofBn/ds66X5MlqackQhLoFeDOTJ2Os6lfPjylxklK/IAeLSYnsAWmnRL03/sQ0AZXH1P/DtH59xSqw4etxepdhusn5JhFeCPvEG0FBckfLzE7/h2tZnQgGQvTTr2l6far4zbkeyaycueejjwVNEsrcfJp/HFMG5AA9oJmlmnLjbeYDs6QFpDiE7AybnnOXTBjIPm4yMzrg42GYXFPzWskjlebbVl9wMneMQ5uGJXz9pBebE0w1BHjDn+Zx2i3DYW8t7XLsiS3J0zroKkiUhg92uXYn9wJMQLzkLzLm7Nncb2jd0GrX+4cGMkS5GBzf886rjh95V6OeCJRH/TSPL/ul9Sy9Gjv8yu0ymOf3UqhfNPmm3nc9b//Ijt4XBXwAoT+AX/IZ/24fd+FOjYm7/8Fe/0ViXVv+KfUs/yzneAsYFRDjBwB6q8p3t/jPHh3pBXbBuFkGxLgARjJUFaReALKwagWcXgAjGyoK0C0AWVo3AswtABGNlQdoFIAurRuDZBSCCsbIg7QKQhVUj8OwCEMFYWZB2AcjCqhF4dgGIYKwsSLsAZGHVCDy7AEQwVhak/wOPjuWsjMqIXQAAAABJRU5ErkJggg=="
+          />
+          <span style="position: relative; top: -10px; font-size: 44px"
+            >群聊</span
+          >
+        </div>
+
+        <div
+          style="
+            padding: 20px;
+            width: 600px;
+            border-radius: 15px;
+            box-shadow: 0px 6px 9px 1px #999;
+            text-align: center;
+            padding: 20px;
+            width: 600px;
+            border-radius: 15px;
+            /* box-shadow: 0px 6px 9px 1px #999; */
+            text-align: center;
+            box-shadow: 0px 11px 0px 0px #000;
+            /* display: flex; */
+            justify-content: center;
+            text-align: center;
+            border: 4px ridge rgb(0 0 0);
+            border-style: solid;
+          "
+          onclick="btnGroup3()"
+        >
+          Chatgpt 交流一群
+        </div>
+        <script></script>
+        <br style="margin-top: 5px" />
+
+        <div
+          style="
+            padding: 20px;
+            width: 600px;
+            border-radius: 15px;
+            box-shadow: 0px 6px 9px 1px #999;
+            text-align: center;
+            padding: 20px;
+            width: 600px;
+            border-radius: 15px;
+            /* box-shadow: 0px 6px 9px 1px #999; */
+            text-align: center;
+            box-shadow: 0px 11px 0px 0px #000;
+            /* display: flex; */
+            justify-content: center;
+            text-align: center;
+            border: 4px ridge rgb(0 0 0);
+            border-style: solid;
+          "
+          onclick="btnGroup4()"
+        >
+          Chatgpt 交流二群
+        </div>
+        <script></script>
+        <br style="margin-top: 5px" />
+        <button type="button" onclick="btnAction5()">share小程序</button>
+        <script>
+          var json = {
+            command: "Login", //不可改动
+            url: "http://211.101.232.65:8080/dappLogin", //小程序后台dapp登录接口
+            callback: "dappLogin", //和下面回调的方法相匹配
+          };
+          //调用移动端
+          json = osnsdk.run(JSON.stringify(json));
+
+          //判断是否登录
+          isDappLogin(json);
+
+          function isDappLogin(json) {
+            if (json === null) {
+              alert("未登录, 请先登录!");
+            }
+          }
+
+          function btnActionOpen() {
+            var json = {
+              command: "OpenDapp",
+              DappInfo:
+                '{"param":"","name":"chatGPT","portrait":"https://chat.7tian.ai/static/image/logo.png","url":"https://chat.7tian.ai/login","target":"OSNS6qJWE7Uiig5AR8ciefmDdryRPsoxL3as86e5idi2wNbtANG","info":{"sign":"MEUCICs+h6cK7OXQDfLAZbS2a/hHj687rHqB4ode+B33K1yrAiEAytfJCISdBQ3tvfXHkhq3vYda+49W3A4g5pDA/1idjfE="}}',
+            };
+            json = osnsdk.run(JSON.stringify(json));
+            //判断是否登录
+            isDappLogin(json);
+          }
+
+          function btnGroup1() {
+            var json = {
+              command: "AddFriend",
+              userID: "OSNU6ngC3RazQL2pWrvHKwhgKz5Xq1ktRH29gPCz3PJp2KoDVz9",
+            };
+            json = osnsdk.run(JSON.stringify(json));
+            //判断是否登录
+            isDappLogin(json);
+          }
+
+          function btnGroup2() {
+            var json = {
+              command: "AddFriend",
+              userID: "OSNU6nfxpqi1KtfkX9SL8RJzE4Q9voq1DEh3LNho7UzrKSBNZV7",
+            };
+            json = osnsdk.run(JSON.stringify(json));
+            //判断是否登录
+            isDappLogin(json);
+          }
+
+          function btnGroup3() {
+            var json = {
+              command: "GroupInfo",
+              osnID: "OSNG6ozRKynUtirU8V98kJ52dnqQbRZFVyv3ZZeeNn5pe8eWeQi",
+            };
+            json = osnsdk.run(JSON.stringify(json));
+            //判断是否登录
+            isDappLogin(json);
+          }
+
+          function btnGroup4() {
+            var json = {
+              command: "GroupInfo",
+              osnID: "OSNG6ozPBLGh3UdZ1kLtopfsnERWuQ3FAnen9FeqRNQGTPLae4B",
+            };
+            json = osnsdk.run(JSON.stringify(json));
+            //判断是否登录
+            isDappLogin(json);
+          }
+
+          function btnAction5() {
+            var json = {
+              command: "Share",
+			  //DappInfo的数据调用后端获取分享数据的接口，
+              DappInfo:
+                '{"param":"","displayName":null,"name":"Dapp Demo","theme":null,"portrait":"http://hashgame.luckmoney8888.com/im_img/hash.png","url":"http://qiangsheng.bingmingff.top/demo/index.html?test=test","target":"OSNS6qJW3j6ESBNxh2DJw1VTrEMm6i4nTKVrDyPYPPBDQDmGMG2","info":{"sign":"MEUCIQCcv87kPO950V+bKXj3E9KTHIUqg52lcM8Z/aKCvG9p+gIgf/N7gFiWV/lDTj38pwmT2zIez/vHz8IE/YnAWNHVFuM="}}',
+            };
+            json = osnsdk.run(JSON.stringify(json));
+            //判断是否登录
+            isDappLogin(json);
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
